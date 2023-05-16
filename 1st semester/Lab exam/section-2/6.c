@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     printf("\n");
     int a[n][n],b[n][n],c[n][n];
-    printf("Enter the 1st array below:\n");
+    printf("Enter the 1st matrix below:\n");
     for (i=0;i<n;i++){
         for(j=0;j<n;j++){
             scanf("%d",&a[i][j]);
@@ -19,7 +19,7 @@ int main(){
             scanf("%d",&b[i][j]);
         }
     }
-    printf("\nMultiplication of two matrix:\n");
+    printf("\nMultiplication of two matrices:\n");
     for(i=0;i<n;i++){
         for(j=0;j<n;j++){
             c[i][j]=0;
